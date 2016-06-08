@@ -1,0 +1,1017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Confirm Password Required</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Date Of Birth</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Email Required</value>
+  </data>
+  <data name="ErrorInvalidLogin" xml:space="preserve">
+    <value>Error Invalid Login</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="ImageURL" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Invalid Email ID</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Login Button</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Log Off</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Old Password</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordLengthError" xml:space="preserve">
+    <value>Password Length Error</value>
+  </data>
+  <data name="PasswordLengthInfo" xml:space="preserve">
+    <value>Password Length Info</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Password Required</value>
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Passwords Do Not Match</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Remember Me</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SelectCountry" xml:space="preserve">
+    <value>Select Country</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>I agree to the</value>
+  </data>
+  <data name="CreateOwner" xml:space="preserve">
+    <value>Create Owner</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MobileRequired" xml:space="preserve">
+    <value>Mobile is required</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="ContactNo" xml:space="preserve">
+    <value>ContactNo</value>
+  </data>
+  <data name="ContactPerson" xml:space="preserve">
+    <value>ContactPerson</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="SuperAdmin" xml:space="preserve">
+    <value>Super Admin</value>
+  </data>
+  <data name="MenuCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="MenuFAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="MenuDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="btnRegister" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="CaptchaRequired" xml:space="preserve">
+    <value>Captcha answer cannot be empty.</value>
+  </data>
+  <data name="IncorrectCaptcha" xml:space="preserve">
+    <value>InValid Captcha</value>
+  </data>
+  <data name="MenuContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="CompletedQuestions" xml:space="preserve">
+    <value>Completed Questions</value>
+  </data>
+  <data name="CreateNewQuestionnaire" xml:space="preserve">
+    <value>Generate New Questionnaire</value>
+  </data>
+  <data name="ConfirmDeleteMsg" xml:space="preserve">
+    <value>Are you sure you want to delete this?</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="AnswerHD" xml:space="preserve">
+    <value>إجابة</value>
+  </data>
+  <data name="MenuContact" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>No Data Found</value>
+  </data>
+  <data name="btnBackToList" xml:space="preserve">
+    <value>Back to list</value>
+  </data>
+  <data name="btnCreateNew" xml:space="preserve">
+    <value>Create New</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="btnEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>Select Category</value>
+  </data>
+  <data name="IsAnswer" xml:space="preserve">
+    <value>Is Answer</value>
+  </data>
+  <data name="MenuChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangePasswordMsg" xml:space="preserve">
+    <value>Your password has been changed.</value>
+  </data>
+  <data name="CompareNewPassword" xml:space="preserve">
+    <value>The new password and confirmation password do not match.</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="SetPasswordMsg" xml:space="preserve">
+    <value>Your password has been set.</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Your password has been changed.</value>
+  </data>
+  <data name="ConfirmationNotification" xml:space="preserve">
+    <value>بعد الإعتماد لن تستطيع إجراء أي تعديلات على االأجوبة</value>
+  </data>
+  <data name="ConfirmationPassword" xml:space="preserve">
+    <value>The new password and confirmation password do not match.</value>
+  </data>
+  <data name="CurrentPasswordRequired" xml:space="preserve">
+    <value>The Current password field is required.</value>
+  </data>
+  <data name="ForgotPasswordMsg" xml:space="preserve">
+    <value>Email Sent to you, please check your email.</value>
+  </data>
+  <data name="GoBackToDashboard" xml:space="preserve">
+    <value>Go Back to Dashboard</value>
+  </data>
+  <data name="NewPasswordRequired" xml:space="preserve">
+    <value>The New password field is required.</value>
+  </data>
+  <data name="UnableToChangePassword" xml:space="preserve">
+    <value>Unable to Change Password</value>
+  </data>
+  <data name="UpdatePassword" xml:space="preserve">
+    <value>Update Password</value>
+  </data>
+  <data name="GoBackToHome" xml:space="preserve">
+    <value>Go Back to Home</value>
+  </data>
+  <data name="ForgotPasswordTxt" xml:space="preserve">
+    <value>Forgot your password</value>
+  </data>
+  <data name="AdminDashboard" xml:space="preserve">
+    <value>Admin Dashboard</value>
+  </data>
+  <data name="ManageNews" xml:space="preserve">
+    <value>Manage News</value>
+  </data>
+  <data name="AddChapter" xml:space="preserve">
+    <value>Add Chapter</value>
+  </data>
+  <data name="AdditionalChapterTitle" xml:space="preserve">
+    <value>Additional Chapter Title</value>
+  </data>
+  <data name="AudibleBookTitle" xml:space="preserve">
+    <value>Audible Book Title</value>
+  </data>
+  <data name="ChapterNumber" xml:space="preserve">
+    <value>Chapter Number</value>
+  </data>
+  <data name="Chapters" xml:space="preserve">
+    <value>Chapters</value>
+  </data>
+  <data name="ChapterTitle" xml:space="preserve">
+    <value>Chapter Title</value>
+  </data>
+  <data name="AlternativeLanguageChapterTitle" xml:space="preserve">
+    <value>Alternative Language Chapter Title</value>
+  </data>
+  <data name="APIPackages" xml:space="preserve">
+    <value>API Packages</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="AudibleBooks" xml:space="preserve">
+    <value>Audible Books</value>
+  </data>
+  <data name="Books" xml:space="preserve">
+    <value>Books</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Revelation" xml:space="preserve">
+    <value>Revelation</value>
+  </data>
+  <data name="Verses" xml:space="preserve">
+    <value>Verses</value>
+  </data>
+  <data name="AddAPIPackage" xml:space="preserve">
+    <value>Add API Package</value>
+  </data>
+  <data name="AddApplication" xml:space="preserve">
+    <value>Add Application</value>
+  </data>
+  <data name="AddAudibleBook" xml:space="preserve">
+    <value>Add Audible Book</value>
+  </data>
+  <data name="AdditionalVerseTitle" xml:space="preserve">
+    <value>Additional Verse Title</value>
+  </data>
+  <data name="AddVerse" xml:space="preserve">
+    <value>Add Verse</value>
+  </data>
+  <data name="AdminEmail" xml:space="preserve">
+    <value>Admin Email</value>
+  </data>
+  <data name="AlternativeLanguageVerseTitle" xml:space="preserve">
+    <value>Alternative Language Verse Title</value>
+  </data>
+  <data name="APIPackage" xml:space="preserve">
+    <value>API Package</value>
+  </data>
+  <data name="APIPackageName" xml:space="preserve">
+    <value>API Package Name</value>
+  </data>
+  <data name="APIPackageTitle" xml:space="preserve">
+    <value>API Package Title</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Application Name</value>
+  </data>
+  <data name="AudibleBook" xml:space="preserve">
+    <value>Audible Book</value>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Chapter</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Create a new account.</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="OwnerEMail" xml:space="preserve">
+    <value>Owner E-Mail</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="SqlDBConString" xml:space="preserve">
+    <value>Sql DB Con String</value>
+  </data>
+  <data name="UnifiedId" xml:space="preserve">
+    <value>Unified Id</value>
+  </data>
+  <data name="Verse" xml:space="preserve">
+    <value>Verse</value>
+  </data>
+  <data name="VerseNumber" xml:space="preserve">
+    <value>Verse Number</value>
+  </data>
+  <data name="VerseTitle" xml:space="preserve">
+    <value>Verse  Title</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Register As New User</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UseAccount" xml:space="preserve">
+    <value>Use a local account to log in.</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Add Translation</value>
+  </data>
+  <data name="AddTranslator" xml:space="preserve">
+    <value>Add Translator</value>
+  </data>
+  <data name="Translation" xml:space="preserve">
+    <value>Translation</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="TranslationText" xml:space="preserve">
+    <value>TranslationText</value>
+  </data>
+  <data name="Translator" xml:space="preserve">
+    <value>Translator</value>
+  </data>
+  <data name="Translators" xml:space="preserve">
+    <value>Translators</value>
+  </data>
+  <data name="TranslatorsName" xml:space="preserve">
+    <value>TranslatorsName</value>
+  </data>
+  <data name="ChangePasswordForm" xml:space="preserve">
+    <value>Change Password Form</value>
+  </data>
+  <data name="YouLoggedinAs" xml:space="preserve">
+    <value>You're logged in as</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Manage Account</value>
+  </data>
+  <data name="AddLanguage" xml:space="preserve">
+    <value>Add Language</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="LanguageTitle" xml:space="preserve">
+    <value>Language Title</value>
+  </data>
+  <data name="ListenAnywhere" xml:space="preserve">
+    <value>Listen Anywhere</value>
+  </data>
+  <data name="ListenText" xml:space="preserve">
+    <value>Listen wherever, whenever. Listen to your audiobooks with the Audible, or Kindle, app, and Echo too!</value>
+  </data>
+  <data name="NoStringsAttached" xml:space="preserve">
+    <value>No strings attached</value>
+  </data>
+  <data name="NoStringsAttachedText" xml:space="preserve">
+    <value>Cancel anytime, without hassles. You’ll also get our Great Listen Guarantee– exchange a book that didn’t meet your expectations.</value>
+  </data>
+  <data name="SwitchBetween" xml:space="preserve">
+    <value>Switch between Reading and Listening</value>
+  </data>
+  <data name="SwitchBetweenText" xml:space="preserve">
+    <value>Now you don't have to put a good book down. More than 70,000 Audible titles allow you to switch seamlessly between reading your Kindle version and listening, without losing your place, on Kindle app and Fire devices.</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="SelectTranslator" xml:space="preserve">
+    <value>Select Translator</value>
+  </data>
+  <data name="VersesTranslation" xml:space="preserve">
+    <value>Verses Translation</value>
+  </data>
+  <data name="AlQuran" xml:space="preserve">
+    <value>Al Quran</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="AddRecitation" xml:space="preserve">
+    <value>Add Recitation</value>
+  </data>
+  <data name="AddRecitationType" xml:space="preserve">
+    <value>Add Recitation Type</value>
+  </data>
+  <data name="AddReciter" xml:space="preserve">
+    <value>Add Reciter</value>
+  </data>
+  <data name="DurationInSeconds" xml:space="preserve">
+    <value>Duration In Seconds</value>
+  </data>
+  <data name="Recitation" xml:space="preserve">
+    <value>Recitation</value>
+  </data>
+  <data name="Recitations" xml:space="preserve">
+    <value>Recitations</value>
+  </data>
+  <data name="RecitationSizeInMB" xml:space="preserve">
+    <value>Recitation Size In MB</value>
+  </data>
+  <data name="RecitationType" xml:space="preserve">
+    <value>Recitation Type</value>
+  </data>
+  <data name="RecitationTypes" xml:space="preserve">
+    <value>Recitation Types</value>
+  </data>
+  <data name="RecitationTypeTitle" xml:space="preserve">
+    <value>Recitation Type Title</value>
+  </data>
+  <data name="RecitationURL" xml:space="preserve">
+    <value>Recitation URL</value>
+  </data>
+  <data name="Reciter" xml:space="preserve">
+    <value>Reciter</value>
+  </data>
+  <data name="Reciters" xml:space="preserve">
+    <value>Reciters</value>
+  </data>
+  <data name="ReciterTitle" xml:space="preserve">
+    <value>Reciter Title</value>
+  </data>
+  <data name="RecitationCategories" xml:space="preserve">
+    <value>Recitation Categories</value>
+  </data>
+  <data name="RecitationSubCategories" xml:space="preserve">
+    <value>Recitation Sub Categories</value>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>Search Results For</value>
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>Total Items</value>
+  </data>
+  <data name="RecitationCategory" xml:space="preserve">
+    <value>Recitation Category</value>
+  </data>
+  <data name="RecitationSubCategory" xml:space="preserve">
+    <value>Recitation Sub Category</value>
+  </data>
+  <data name="SelectSubCategory" xml:space="preserve">
+    <value>Select Sub Category</value>
+  </data>
+  <data name="AddRecitationCategory" xml:space="preserve">
+    <value>Add Recitation Category</value>
+  </data>
+  <data name="AddSubRecitationCategory" xml:space="preserve">
+    <value>Add Recitation Sub Category </value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RecitationCategoryName" xml:space="preserve">
+    <value>Recitation Category Name</value>
+  </data>
+  <data name="RecitationSubCategoryName" xml:space="preserve">
+    <value>Recitation Sub Category Name</value>
+  </data>
+  <data name="ResetSession" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="AddFAQ" xml:space="preserve">
+    <value>Add FAQ</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="FAQTitle" xml:space="preserve">
+    <value>FAQ Title</value>
+  </data>
+  <data name="SelectBook" xml:space="preserve">
+    <value>Select Book</value>
+  </data>
+  <data name="SelectedBook" xml:space="preserve">
+    <value>Selected Book</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="BookMarkNotFound" xml:space="preserve">
+    <value>No bookmark found.</value>
+  </data>
+  <data name="Juz" xml:space="preserve">
+    <value>Juz</value>
+  </data>
+  <data name="MyBookmark" xml:space="preserve">
+    <value>My Bookmark</value>
+  </data>
+  <data name="SendPushNotification" xml:space="preserve">
+    <value>Send Push Notification</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="AddSpecialContent" xml:space="preserve">
+    <value>Add Special Content</value>
+  </data>
+  <data name="SpecialContent" xml:space="preserve">
+    <value>Special Content</value>
+  </data>
+  <data name="SpecialContents" xml:space="preserve">
+    <value>Special Contents</value>
+  </data>
+  <data name="SpecialContentTitle" xml:space="preserve">
+    <value>Special Content Title</value>
+  </data>
+  <data name="BackToChapter" xml:space="preserve">
+    <value>Back to Chapter</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration In Seconds</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>File Size In MB</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="ManageContent" xml:space="preserve">
+    <value>Manage Content</value>
+  </data>
+  <data name="MB" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="QuickLinks" xml:space="preserve">
+    <value>Quick Links:</value>
+  </data>
+  <data name="RecitationFile" xml:space="preserve">
+    <value>Recitation File</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="SelectRecitationType" xml:space="preserve">
+    <value>Select Recitation Type</value>
+  </data>
+  <data name="SelectReciter" xml:space="preserve">
+    <value>Select Reciter</value>
+  </data>
+  <data name="Surahs" xml:space="preserve">
+    <value>Surahs</value>
+  </data>
+  <data name="TotalVerses" xml:space="preserve">
+    <value>Total Verses</value>
+  </data>
+  <data name="VerseID" xml:space="preserve">
+    <value>Verse ID</value>
+  </data>
+  <data name="VerseRecitation" xml:space="preserve">
+    <value>Verse Recitation</value>
+  </data>
+  <data name="VerseTranslation" xml:space="preserve">
+    <value>Verse Translation</value>
+  </data>
+  <data name="BannerNotification" xml:space="preserve">
+    <value>Banner Notification</value>
+  </data>
+  <data name="MasterCodes" xml:space="preserve">
+    <value>Master Codes</value>
+  </data>
+  <data name="AddBannerNotification" xml:space="preserve">
+    <value>Add Banner Notification</value>
+  </data>
+  <data name="BannerBodyText" xml:space="preserve">
+    <value>Banner Body Text</value>
+  </data>
+  <data name="BannerImage" xml:space="preserve">
+    <value>Banner Image</value>
+  </data>
+  <data name="BannerNotifications" xml:space="preserve">
+    <value>Banner Notifications</value>
+  </data>
+  <data name="BannerURl" xml:space="preserve">
+    <value>Banner URl</value>
+  </data>
+  <data name="BookTitle" xml:space="preserve">
+    <value>Book Title</value>
+  </data>
+  <data name="IsNotificationSent" xml:space="preserve">
+    <value>Is Notification Sent</value>
+  </data>
+  <data name="NotificationNameAr" xml:space="preserve">
+    <value>Notification Name Ar</value>
+  </data>
+  <data name="NotificationNameEn" xml:space="preserve">
+    <value>Notification Name En</value>
+  </data>
+  <data name="NotificationTypeTitle" xml:space="preserve">
+    <value>Notification Type Title</value>
+  </data>
+  <data name="UploadBannerImage" xml:space="preserve">
+    <value>Upload Banner Image</value>
+  </data>
+  <data name="Purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Glossary" xml:space="preserve">
+    <value>Glossary</value>
+  </data>
+  <data name="LanguagePreference" xml:space="preserve">
+    <value>Language Preference</value>
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Tajwid" xml:space="preserve">
+    <value>Tajwid</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Thank you for your Enquiry. We will respond back Shortly.</value>
+  </data>
+  <data name="Inquiries" xml:space="preserve">
+    <value>Inquiries</value>
+  </data>
+  <data name="MessageIsRequired" xml:space="preserve">
+    <value>Message is required</value>
+  </data>
+  <data name="NameIsRequired" xml:space="preserve">
+    <value>Name is required</value>
+  </data>
+  <data name="PurposeOfEnquiryIsRequired" xml:space="preserve">
+    <value>Purpose of enquiry is required</value>
+  </data>
+  <data name="AllNotifications" xml:space="preserve">
+    <value>All Notifications</value>
+  </data>
+  <data name="GlossaryTranslations" xml:space="preserve">
+    <value>Glossary Translations</value>
+  </data>
+  <data name="AddGlossary" xml:space="preserve">
+    <value>Add Glossary</value>
+  </data>
+  <data name="AddGlossaryTranslation" xml:space="preserve">
+    <value>Add Glossary Translation</value>
+  </data>
+  <data name="AddMasterCode" xml:space="preserve">
+    <value>Add Master Code</value>
+  </data>
+  <data name="AddRecitationNotification" xml:space="preserve">
+    <value>Add Recitation Notification</value>
+  </data>
+  <data name="AddTajwid" xml:space="preserve">
+    <value>Add Tajwid</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Glossaries" xml:space="preserve">
+    <value>Glossaries</value>
+  </data>
+  <data name="GlossaryTitle" xml:space="preserve">
+    <value>Glossary Title</value>
+  </data>
+  <data name="GlossaryTranslation" xml:space="preserve">
+    <value>Glossary Translation</value>
+  </data>
+  <data name="MasterCode" xml:space="preserve">
+    <value>Master Code</value>
+  </data>
+  <data name="MasterCodeTitle" xml:space="preserve">
+    <value>Master Code Title</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+  </data>
+  <data name="NotAllowedFileType" xml:space="preserve">
+    <value>This is not an allowed file type</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="NotificationFrequency" xml:space="preserve">
+    <value>Notification Frequency</value>
+  </data>
+  <data name="NotificationNameArabic" xml:space="preserve">
+    <value>Notification Name Arabic</value>
+  </data>
+  <data name="NotificationNameEnglish" xml:space="preserve">
+    <value>Notification Name English</value>
+  </data>
+  <data name="NotificationType" xml:space="preserve">
+    <value>Notification Type</value>
+  </data>
+  <data name="RepeatCount" xml:space="preserve">
+    <value>Repeat Count</value>
+  </data>
+  <data name="SelectNotification" xml:space="preserve">
+    <value>Select Notification</value>
+  </data>
+  <data name="SelectRecitationByFile" xml:space="preserve">
+    <value>Select Recitation by File</value>
+  </data>
+  <data name="SelectRecitationBySystem" xml:space="preserve">
+    <value>Select Recitation by System</value>
+  </data>
+  <data name="SelectVerse" xml:space="preserve">
+    <value>Select Verse</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="TajwidList" xml:space="preserve">
+    <value>Tajwid List</value>
+  </data>
+  <data name="ThumbURL" xml:space="preserve">
+    <value>Thumb URL</value>
+  </data>
+  <data name="TimeInterval" xml:space="preserve">
+    <value>Time Interval</value>
+  </data>
+  <data name="UploadRecitationFile" xml:space="preserve">
+    <value>UploadRecitationFile</value>
+  </data>
+  <data name="SpecialContentTitleAr" xml:space="preserve">
+    <value>Special Content Title Arabic</value>
+  </data>
+  <data name="PreviousBookMark" xml:space="preserve">
+    <value>Previous bookmarks</value>
+  </data>
+  <data name="TodaysBookMark" xml:space="preserve">
+    <value>Today’s bookmarks</value>
+  </data>
+  <data name="ViewAllBookmarks" xml:space="preserve">
+    <value>View all</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font size</value>
+  </data>
+  <data name="Reading" xml:space="preserve">
+    <value>Reading</value>
+  </data>
+  <data name="AddNuzul" xml:space="preserve">
+    <value>Add Nuzul</value>
+  </data>
+  <data name="AlternateLanguageExplanation" xml:space="preserve">
+    <value>Alternate Language Explaination</value>
+  </data>
+  <data name="Explaination" xml:space="preserve">
+    <value>Explaination</value>
+  </data>
+  <data name="GrammarList" xml:space="preserve">
+    <value>Grammar List</value>
+  </data>
+  <data name="Mufassirs" xml:space="preserve">
+    <value>Mufassirs</value>
+  </data>
+  <data name="Nuzul" xml:space="preserve">
+    <value>Nuzul</value>
+  </data>
+  <data name="NuzulList" xml:space="preserve">
+    <value>Nuzul List</value>
+  </data>
+  <data name="Tafseers" xml:space="preserve">
+    <value>Tafseers</value>
+  </data>
+  <data name="AddGrammar" xml:space="preserve">
+    <value>Add Grammar</value>
+  </data>
+  <data name="AlternateLanguageMeaning" xml:space="preserve">
+    <value>Alternate Language Meaning</value>
+  </data>
+  <data name="Grammar" xml:space="preserve">
+    <value>Grammar</value>
+  </data>
+  <data name="Meaning" xml:space="preserve">
+    <value>Meaning</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PageNo" xml:space="preserve">
+    <value>Page no :</value>
+  </data>
+</root>
