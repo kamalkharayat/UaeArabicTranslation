@@ -1014,4 +1014,7 @@
   <data name="PageNo" xml:space="preserve">
     <value>Page no :</value>
   </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Thank You</value>
+  </data>
 </root>
